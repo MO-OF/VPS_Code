@@ -1,6 +1,9 @@
 # VPS_Code
 
-## [Debian乱码处理][Debian乱码处理]
+## 问题处理 
+* [Debian乱码处理][Debian乱码处理]
+* Pip3安装
+	apt-get install python3-pip
 
 ## 开机自启
 [rc.local][rc.local](/etc/rc.local): 
