@@ -15,9 +15,8 @@
 * **必应每日壁纸获取**
 
 	[GetBingWallpaper.py][GetBingWallpaper.py](/root/GetBingWallpaper.py):
-		
-		按一定时间(1h)检测[Bing][Bing]主页壁纸是否更新，并将壁纸原图(UHD)下载至“/root/Bing_Wallpaper”,
-		并通过Rclone上传到谷歌云盘进行存储
+
+	```按一定时间(1h)检测```[Bing][Bing]```主页壁纸是否更新，并将壁纸原图(UHD)下载至“/root/Bing_Wallpaper”,并通过Rclone上传到谷歌云盘进行存储```
 
 ## 电影上传
 [MovieShare.sh][MovieShare.sh](/root/MovieShare.sh): 
@@ -36,7 +35,7 @@
 [MO_server.sh]:https://raw.githubusercontent.com/mo1055/VPS_Code/master/MO_server.sh
 
 [GetBingWallpaper.py]:https://raw.githubusercontent.com/mo1055/VPS_Code/master/GetBingWallpaper.py
-[Bing]:https://cn.bing.com/
+[Bing]:https://cn.bing.com
 
 [MovieShare.sh]:https://raw.githubusercontent.com/mo1055/VPS_Code/master/MovieShare.sh
 [MovieShare.py]:https://raw.githubusercontent.com/mo1055/VPS_Code/master/MovieShare.py
