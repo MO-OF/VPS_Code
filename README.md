@@ -7,6 +7,7 @@
 
 ## 电影上传
 [MovieShare.sh][MovieShare.sh]: 运行MovieShare.py文件
+
 [MovieShare.py][MovieShare.py]: 获取电影字幕代码；将电影及其相关文件上传至谷歌云盘（MO_share:/Share）
 
 
