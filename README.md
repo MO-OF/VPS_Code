@@ -8,6 +8,7 @@
 
 ## 自启脚本
 * **必应每日壁纸获取**
+
 	[GetBingWallpaper.py][GetBingWallpaper.py]:按一定时间(1h)检测[Bing][Bing]主页壁纸是否更新，并将壁纸原图(UHD)下载至“/root/Bing_Wallpaper”,并通过Rclone上传到谷歌云盘进行存储
 
 ## 电影上传
