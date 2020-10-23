@@ -4,6 +4,7 @@
 
 ## 开机自启
 [rc.local][rc.local]: debian9 开机自启动脚本,用以自启动MO_server.sh文件
+
 [MO_server.sh][MO_server.sh]: 启动自用脚本
 
 ## 自启脚本
