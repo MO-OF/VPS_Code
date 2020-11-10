@@ -4,7 +4,8 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-Bing_Url = "https://cn.bing.com"
+# Bing_Url = "https://cn.bing.com"
+Bing_Url = "https://www.bing.com/?mkt=zh-CN&FORM=BEHPTB"
 BingWallpaperDir_Path = "/root/Bing_Wallpaper"
 BingWallpaper_OldUrl = ""
 
