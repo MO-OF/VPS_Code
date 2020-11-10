@@ -4,7 +4,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-# Bing_Url = "https://cn.bing.com"
+Bing_Url_root = "https://cn.bing.com"
 Bing_Url = "https://www.bing.com/?mkt=zh-CN&FORM=BEHPTB"
 BingWallpaperDir_Path = "/root/Bing_Wallpaper"
 BingWallpaper_OldUrl = ""
@@ -61,7 +61,7 @@ def run():
             #     使用bs4库获取壁纸URL与壁纸简介
             BingSoup = BeautifulSoup(BingRequests.text, 'html.parser')
             BingTarget = BingSoup.head.link.get("href").split("&")[0].replace("1920x1080", "UHD")
-            BingWallpaper_Url = str(str(Bing_Url) + str(BingTarget))
+            BingWallpaper_Url = str(str(Bing_Url_root) + str(BingTarget))
             BingWallpaper_Name = BingSoup.find_all(id="sh_cp")[0].get("title")
             print(BingWallpaper_Url)
             print(BingWallpaper_Name)
